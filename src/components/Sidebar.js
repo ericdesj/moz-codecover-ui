@@ -39,7 +39,6 @@ var RevisionSetter = React.createClass({
   renderRevisions: function() {
       var revision_list = [];
       for (var i in this.state.revision_list) {
-          // debugger;
           var buildDate = new Date(this.state.revision_list[i].build.date * 1000).toISOString();
           var buildRevision = this.state.revision_list[i].build.revision12;
           var buildCount = this.state.revision_list[i].count;
