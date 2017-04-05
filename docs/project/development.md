@@ -38,4 +38,5 @@ make it available for demo or testing. The page is available [here](https://eric
 
 ### Relay service
 To avoid issues with CORS we built a relay service for Mozilla hg where you can get raw files or markup code (to borrow
-syntax highlighting from hg). You can deploy the service for your personal use to Heroku with the 'Deploy to Heroku' button.
+syntax highlighting from hg). You can deploy the service for your personal use to Heroku with the 'Deploy to Heroku' 
+button. Check the repo out [here](https://github.com/ericdesj/moz-coco-relay).
